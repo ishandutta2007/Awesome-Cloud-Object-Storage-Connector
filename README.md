@@ -68,9 +68,9 @@ The following table compares leading commercial object storage providers and man
 
 ## 💻 Open-Source GitHub Projects
 
-The following table lists top open-source object storage servers, cloud filesystem gateways, and multi-cloud transfer connectors. Repositories are sorted in descending order by GitHub star count. Each star badge links directly to that repository's stargazers page.
+The following table lists top open-source object storage servers, cloud filesystem gateways, and multi-cloud transfer connectors. Repositories are sorted in descending order by GitHub Stars_Count. Each Stars_Badge links directly to that repository's stargazers page.
 
-| 📦 Project | ⭐ Stars | 📝 Description | 🎯 Primary Use Case |
+| 📦 Project | ⭐ GitHub_Stars | 📝 Description | 🎯 Primary Use Case |
 |:---|:---:|:---|:---|
 | **[MinIO](https://github.com/minio/minio)** | [![MinIO Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) | High-performance, Kubernetes-native, S3-compatible object storage suite written in Go. Distributed, software-defined, and enterprise-ready. | On-premises S3 server & Private Cloud Data Lake |
 | **[Rclone](https://github.com/rclone/rclone)** | [![Rclone Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) | "The Swiss army knife of cloud storage" — syncs, transfers, encrypts, and mounts directories across 70+ cloud providers including S3, B2, GCS, and Azure. | CLI synchronization, cloud-to-cloud migration, and FUSE mounting |
@@ -116,7 +116,7 @@ We welcome additions, updates, and corrections from the community:
 3. 📝 Add your entry following the established table structure, ensuring:
    - Pricing includes precise starting rates (no generic "Custom" or "Usage-based" text).
    - Free tiers and trials specify exact durations and limits.
-   - Star badges follow the `style=social&color=white` badge format and link to stargazers.
+   - Stars_Badges follow the `style=social&color=white` badge format and link to stargazers.
 4. 🚀 Submit a Pull Request with a clear description of the project and why it belongs here.
 
 ---
