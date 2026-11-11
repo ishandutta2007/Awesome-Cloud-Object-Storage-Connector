@@ -1,28 +1,46 @@
-# Awesome Cloud Object Storage Connectors
+<div align="center">
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tracked Open Source Projects](https://img.shields.io/badge/Open--Source%20Projects-10-blue.svg)](#open-source-github-projects)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Cloud-Object-Storage-Connector/pulls)
+<img src="./assets/banner.svg" alt="Awesome Cloud Object Storage Connectors Banner" width="100%" />
 
-> A curated list of top SaaS products, enterprise object storage solutions, open-source gateways, CLI utilities, and S3-compatible cloud storage connectors.
+# ⚡ Awesome Cloud Object Storage Connectors 🌐
 
-Cloud Object Storage Connectors bridge applications, legacy file systems, distributed clusters, and multi-cloud environments with modern object storage backends (AWS S3, Google Cloud Storage, Azure Blob, Cloudflare R2, MinIO, Ceph, and Backblaze B2). This guide compiles industry-leading SaaS platforms and battle-tested open-source projects designed to eliminate egress lock-in, enable unified multi-cloud data access, mount buckets locally via FUSE, and orchestrate petabyte-scale file transfers.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="#-open-source-github-projects"><img src="https://img.shields.io/badge/Open--Source%20Projects-13-blue.svg" alt="Tracked Open Source Projects" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cloud-Object-Storage-Connector/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <strong>🚀 A battle-tested curated directory of SaaS object storage services, enterprise multi-cloud connectors, S3-compatible gateways, FUSE drivers, and file transfer engines.</strong>
+</p>
+
+</div>
 
 ---
 
-## Table of Contents
+## 📖 Overview
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Cloud Storage Platforms](#saas--hosted-cloud-storage-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Architecture & Use Case Patterns](#architecture--use-case-patterns)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+Cloud Object Storage Connectors bridge applications, legacy POSIX file systems, distributed compute clusters, and multi-cloud architectures with scalable object storage backends (**AWS S3**, **Google Cloud Storage**, **Azure Blob**, **Cloudflare R2**, **MinIO**, **Ceph**, and **Backblaze B2**). This guide compiles industry-leading SaaS platforms and battle-tested open-source projects designed to eliminate vendor egress lock-in, enable unified multi-cloud data access, mount buckets locally via FUSE, and orchestrate petabyte-scale file transfers.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Cloud Storage Platforms](#️-saas--hosted-cloud-storage-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Architecture & Use Case Patterns](#️-architecture--use-case-patterns)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global cloud object storage and storage gateway market is estimated at **$8.6B – $9.8B in 2025–2026** and is projected to expand past **$25B – $28B by the mid-2030s**, compounding at a **11% – 13.5% CAGR** fueled by generative AI training data lakes, unstructured media growth, and multi-cloud redundancy demands.
 
@@ -30,11 +48,11 @@ From a structural perspective, the infrastructure tier remains **moderately conc
 
 ---
 
-## SaaS & Hosted Cloud Storage Platforms
+## ☁️ SaaS & Hosted Cloud Storage Platforms
 
 The following table compares leading commercial object storage providers and managed cloud storage connector services. Entries are sorted in descending order by parent company scale (market capitalization or estimated enterprise valuation).
 
-| Product | Company Scale (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| 🏢 Product | 📈 Company Scale (Valuation / Revenue) | 📝 Description | 🏷️ Pricing (Starting Tier) | 🎁 Free Tier / Trial Limits |
 |:---|:---|:---|:---|:---|
 | **[Microsoft Azure Blob Storage](https://azure.microsoft.com/en-us/products/storage/blobs/)** | **~$3.1T Market Cap** (Microsoft) | Hyperscale object storage featuring Hot, Cool, Cold, and Archive storage tiers. Supports extensive enterprise security, NFS v3.0, and data lake storage (ADLS Gen2). | **$0.018 / GB-month** (Hot LRS tier, East US); Cool: $0.010 / GB-month; Cold: $0.0045 / GB-month; Archive: $0.00099 / GB-month | **30-Day Free Trial**: $200 free Azure credits for first 30 days, plus 5 GB LRS Hot block blob storage free for 12 months |
 | **[AWS S3](https://aws.amazon.com/s3/)** | **~$2.2T Market Cap** (Amazon / AWS) | The reference global cloud object storage standard with the largest connector and developer tooling ecosystem. Offers 99.999999999% (11 9s) durability across multi-tier lifecycle tiers. | **$0.023 / GB-month** (S3 Standard first 50 TB); Glacier Instant Retrieval: $0.004 / GB-month; Glacier Deep Archive: $0.00099 / GB-month | **12-Month Free Tier**: 5 GB S3 Standard storage, 20,000 GET requests, and 2,000 PUT/POST/LIST requests/month for 12 months |
@@ -48,11 +66,11 @@ The following table compares leading commercial object storage providers and man
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 The following table lists top open-source object storage servers, cloud filesystem gateways, and multi-cloud transfer connectors. Repositories are sorted in descending order by GitHub star count. Each star badge links directly to that repository's stargazers page.
 
-| Project | Stars | Description | Primary Use Case |
+| 📦 Project | ⭐ Stars | 📝 Description | 🎯 Primary Use Case |
 |:---|:---:|:---|:---|
 | **[MinIO](https://github.com/minio/minio)** | [![MinIO Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) | High-performance, Kubernetes-native, S3-compatible object storage suite written in Go. Distributed, software-defined, and enterprise-ready. | On-premises S3 server & Private Cloud Data Lake |
 | **[Rclone](https://github.com/rclone/rclone)** | [![Rclone Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) | "The Swiss army knife of cloud storage" — syncs, transfers, encrypts, and mounts directories across 70+ cloud providers including S3, B2, GCS, and Azure. | CLI synchronization, cloud-to-cloud migration, and FUSE mounting |
@@ -70,40 +88,59 @@ The following table lists top open-source object storage servers, cloud filesyst
 
 ---
 
-## Architecture & Use Case Patterns
+## 🏗️ Architecture & Use Case Patterns
 
 Building a resilient, cost-effective object storage pipeline typically combines layered tools:
 
-1. **Storage Tiering & Persistence**:
+1. 🧱 **Storage Tiering & Persistence**:
    - Private / On-Prem: **MinIO** or **Ceph RGW** on bare metal or NVMe SANs.
    - Public Cloud Hot Tier: **Wasabi**, **Backblaze B2**, or **Cloudflare R2** for zero/low egress.
    - Cold / Compliance Archive: **AWS S3 Glacier Deep Archive** or **Azure Archive Blob**.
-2. **Connectivity & Filesystem Adapters**:
+2. 🔌 **Connectivity & Filesystem Adapters**:
    - Use **s3fs-fuse** or **Goofys** to mount remote object storage as local file paths for applications without native S3 SDK code.
    - Use **JuiceFS** when POSIX metadata consistency and distributed cache speed are required for AI/ML workloads.
-3. **Data Ingestion & Cross-Cloud Replication**:
+3. 🔄 **Data Ingestion & Cross-Cloud Replication**:
    - Use **Rclone** for cron-based sync and migration between cloud providers without intermediary local storage.
    - Use **s5cmd** inside data ingestion pipelines to saturate high-bandwidth 25GbE/100GbE network interfaces.
-4. **Desktop & User Access**:
+4. 🖥️ **Desktop & User Access**:
    - Use **Cyberduck** or **ExpanDrive** for team members needing direct drag-and-drop bucket access without CLI configurations.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 We welcome additions, updates, and corrections from the community:
 
-1. Fork this repository.
-2. Create a new branch: `git checkout -b feature/new-connector`.
-3. Add your entry following the established table structure, ensuring:
+1. 🍴 Fork this repository.
+2. 🌿 Create a new branch: `git checkout -b feature/new-connector`.
+3. 📝 Add your entry following the established table structure, ensuring:
    - Pricing includes precise starting rates (no generic "Custom" or "Usage-based" text).
    - Free tiers and trials specify exact durations and limits.
    - Star badges follow the `style=social&color=white` badge format and link to stargazers.
-4. Submit a Pull Request with a clear description of the project and why it belongs here.
+4. 🚀 Submit a Pull Request with a clear description of the project and why it belongs here.
 
 ---
 
-## Disclaimer
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Cloud-Object-Storage-Connector&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Cloud-Object-Storage-Connector&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you so much for exploring and supporting **Awesome Cloud Object Storage Connectors**! 🌟
+
+If you find this repository helpful for your projects, infrastructure architecture, or research, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork it** and contribute new tools, gateways, and updates.
+- 📢 **Share it** with fellow DevOps engineers, cloud architects, and developers.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance and curation via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚠️ Disclaimer
 
 - This curated list is maintained for informational and architectural evaluation purposes.
 - Always review current provider service agreements, egress pricing policies, and encryption standards prior to deploying production workloads.
@@ -111,4 +148,6 @@ We welcome additions, updates, and corrections from the community:
 
 ---
 
-**Maintained with ❤️ for the Cloud Architecture, DevOps, and Open-Source Storage Community.**
+<div align="center">
+  <sub>Maintained with ❤️ for the Cloud Architecture, DevOps, and Open-Source Storage Community.</sub>
+</div>
