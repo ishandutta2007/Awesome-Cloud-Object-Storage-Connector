@@ -153,7 +153,7 @@ If you find this repository helpful for your projects, infrastructure architectu
 </div>
 # Awesome-Cloud-Object-Storage-Connector
 
-# Top Cloud Object Storage Connector Ecosystem
+## Top Cloud Object Storage Connector Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on S3-Compatible Storage, Cross-Cloud File Transfer & Object Storage Gateway Tooling*  
