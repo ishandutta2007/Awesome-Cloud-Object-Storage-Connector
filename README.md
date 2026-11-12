@@ -68,7 +68,7 @@ The following table compares leading commercial object storage providers and man
 
 ## 💻 Open-Source GitHub Projects
 
-The following table lists top open-source object storage servers, cloud filesystem gateways, and multi-cloud transfer connectors. Repositories are sorted in descending order by GitHub Stars_Count. Each Stars_Badge links directly to that repository's stargazers page.
+The following table lists top open-source object storage servers, cloud filesystem gateways, and multi-cloud transfer connectors. Repositories are sorted in descending order by GitHub_Stars_Count. Each Stars_Badge links directly to that repository's stargazers page.
 
 | 📦 Project | ⭐ GitHub_Stars | 📝 Description | 🎯 Primary Use Case |
 |:---|:---:|:---|:---|
