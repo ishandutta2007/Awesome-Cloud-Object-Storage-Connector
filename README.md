@@ -151,3 +151,5 @@ If you find this repository helpful for your projects, infrastructure architectu
 <div align="center">
   <sub>Maintained with ❤️ for the Cloud Architecture, DevOps, and Open-Source Storage Community.</sub>
 </div>
+# Awesome-Cloud-Object-Storage-Connector
+
