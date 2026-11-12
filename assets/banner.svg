@@ -156,7 +156,7 @@
 
     <!-- Subtitle -->
     <text x="600" y="200" text-anchor="middle" class="subtitle-text" font-size="18" fill="#94a3b8">
-      S3-Compatible APIs &bull; Storage Gateways &bull; Multi-Cloud Sync &bull; FUSE Drivers &bull; Egress Optimization
+      S3-Compatible APIs &#x2022; Storage Gateways &#x2022; Multi-Cloud Sync &#x2022; FUSE Drivers &#x2022; Egress Optimization
     </text>
 
     <!-- Feature Highlights / Interactive Badges -->
@@ -164,41 +164,41 @@
       <!-- Pill 1: S3 API Compatibility -->
       <g transform="translate(-360, 0)" class="badge-hover">
         <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#0f172a" stroke="#0284c7" stroke-width="1.5" />
-        <text x="0" y="5" text-anchor="middle" fill="#38bdf8" font-size="13" class="tagline-text" font-weight="600">⚡ S3 Universal API</text>
+        <text x="0" y="5" text-anchor="middle" fill="#38bdf8" font-size="13" class="tagline-text" font-weight="600">&#x26A1; S3 Universal API</text>
       </g>
 
       <!-- Pill 2: Zero Egress Focus -->
       <g transform="translate(-180, 0)" class="badge-hover">
         <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#0f172a" stroke="#059669" stroke-width="1.5" />
-        <text x="0" y="5" text-anchor="middle" fill="#34d399" font-size="13" class="tagline-text" font-weight="600">💸 Zero Egress R2/B2</text>
+        <text x="0" y="5" text-anchor="middle" fill="#34d399" font-size="13" class="tagline-text" font-weight="600">&#x1F4B8; Zero Egress R2/B2</text>
       </g>
 
       <!-- Pill 3: FUSE & Filesystem Gateways -->
       <g transform="translate(0, 0)" class="badge-hover">
         <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#0f172a" stroke="#6366f1" stroke-width="1.5" />
-        <text x="0" y="5" text-anchor="middle" fill="#818cf8" font-size="13" class="tagline-text" font-weight="600">📂 FUSE &amp; Gateways</text>
+        <text x="0" y="5" text-anchor="middle" fill="#818cf8" font-size="13" class="tagline-text" font-weight="600">&#x1F4C2; FUSE &amp; Gateways</text>
       </g>
 
       <!-- Pill 4: Open Source Stacks -->
       <g transform="translate(180, 0)" class="badge-hover">
         <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#0f172a" stroke="#9333ea" stroke-width="1.5" />
-        <text x="0" y="5" text-anchor="middle" fill="#c084fc" font-size="13" class="tagline-text" font-weight="600">⭐ Top Open-Source</text>
+        <text x="0" y="5" text-anchor="middle" fill="#c084fc" font-size="13" class="tagline-text" font-weight="600">&#x2B50; Top Open-Source</text>
       </g>
 
       <!-- Pill 5: Multi-Cloud Replication -->
       <g transform="translate(360, 0)" class="badge-hover">
         <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#0f172a" stroke="#ea580c" stroke-width="1.5" />
-        <text x="0" y="5" text-anchor="middle" fill="#fb923c" font-size="13" class="tagline-text" font-weight="600">🔄 Cross-Cloud Sync</text>
+        <text x="0" y="5" text-anchor="middle" fill="#fb923c" font-size="13" class="tagline-text" font-weight="600">&#x1F504; Cross-Cloud Sync</text>
       </g>
     </g>
 
     <!-- Bottom Metadata Bar -->
     <g transform="translate(600, 345)">
       <text x="0" y="0" text-anchor="middle" font-size="13" fill="#64748b" class="subtitle-text">
-        AWS S3 &bull; Azure Blob &bull; Google Cloud &bull; Cloudflare R2 &bull; Wasabi &bull; Backblaze &bull; MinIO &bull; Rclone &bull; JuiceFS &bull; Ceph
+        AWS S3 &#x2022; Azure Blob &#x2022; Google Cloud &#x2022; Cloudflare R2 &#x2022; Wasabi &#x2022; Backblaze &#x2022; MinIO &#x2022; Rclone &#x2022; JuiceFS &#x2022; Ceph
       </text>
       <text x="0" y="22" text-anchor="middle" font-size="12" fill="#475569" class="subtitle-text">
-        Updated March 2026 &bull; Curated for Developers, Cloud Architects &amp; DevOps Engineers
+        Updated March 2026 &#x2022; Curated for Developers, Cloud Architects &amp; DevOps Engineers
       </text>
     </g>
   </g>
